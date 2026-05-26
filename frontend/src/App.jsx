@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Local backend URL jo port 5000 par chal raha hai
-const API_BASE_URL = 'http://localhost:5000/bfhl/tasks';
+const API_BASE_URL = 'https://taskflow-bajaj-assessment.onrender.com/bfhl/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
